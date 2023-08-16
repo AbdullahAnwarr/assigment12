@@ -1,0 +1,228 @@
+
+:root{
+  --main-color: white ;
+  --main-bg-layer:rgba(224, 20, 20, 0.584);
+  --main-bg-body:white;
+  --second-bg-layer:rgba(0, 0, 0, 0.905);
+  --second-bg-body:rgba(28, 28, 28, 0.905);
+
+}
+
+body{
+  overflow-y:hidden ;
+  background-color: var(--main-bg-body);
+}
+
+*{
+  list-style: none;
+  padding: 0px;
+  margin: 0px;
+  color: var(--main-color);
+}
+a{
+  text-decoration: none;
+}
+/* menu */
+.on-dark{
+  width: 50%;
+  height: 100%;
+  background-color:#DF9F33;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.off-dark i{
+color: black;
+}
+.off-dark{
+  display: flex;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 100%;
+  border-radius: 20px;
+}
+.dark{
+  cursor: pointer;
+  border: 3px solid white;
+  display: flex;
+  margin-left: 15px;
+  width: 60px;
+  height: 30px;
+  background-color: white;
+  border-radius: 20px;
+}
+menu{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.menu-icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 50px;
+  right: -70px;
+  cursor: pointer;
+  color: var(--mainColor);
+  transition: color 1s ;
+
+}
+.menu-icon i{
+  color: var(--mainColor);
+  transition: color 1s ;
+}
+.menu a:hover{
+  color:rgba(224, 20, 20, 0.584);
+}
+.menu {
+  overflow: hidden;
+}
+.menu a{
+  color: var(--mainColor);
+  width: 100%;
+  height: 10%;
+  display: inline-block;
+  padding-left: 20px;
+  font-size: 1.3rem;
+}
+menu{
+  position: fixed;
+  width: 0%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.905);
+}
+.closeJS{
+  display: none;
+}  
+.openJS{
+  animation: menu 3s infinite ;
+}
+/* menu end */
+/* header */
+header{
+  background-image: url(../img/pngtree-band-concert-background-image.jpg);
+  background-size: 100% 100% ;
+  height: 100vh;
+}.bg-header-layer{
+  background-color:var(--main-bg-layer);
+  height: 100%;
+}
+.text-header{
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 100%;
+}
+.animate{
+animation: text-Egyption-Party 2s infinite;
+}
+/* header end */
+/* Duration */
+.col-7 h2{
+  background-color:var(--main-bg-layer); 
+  padding: 20px 0px;
+  margin: 0px;
+  cursor: pointer;
+  width: 100;
+}
+.col-7 p{
+  display: none;
+}
+.col-7 {
+  background-color:  rgba(35, 25, 8, 0.258);
+}
+#Duration{
+  margin-bottom: 100px;
+}
+/* Duration end */
+.btn-back-home{
+  border-radius: 50%;
+  display: flex ;
+  justify-content: center;
+  align-items: end;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(32, 28, 28, 0.38);
+  position: fixed;
+  right: 10px;
+  bottom: 10px; 
+}
+.btn-back-home i{
+  animation: arrow-up 3s infinite ;
+  color: var(--main-color);
+  font-size: 20px;
+}
+/* Details */
+#Details{
+  background-image: url(../img/invitation.jpg);
+  background-size: cover;
+  width: 100%;
+  margin-bottom: 100px;
+}
+.bg-Details{
+  width: 100%;
+  height: 100%;
+  background-color:  var(--main-bg-layer);
+}
+.all p{
+  width: 100%;
+}
+.all{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid ;
+  padding: 30px 0px 20px 0px;
+  font-size: 40px;
+}
+.col-md-3{
+  padding-top: 20px ;
+  padding-bottom: 100px;
+}
+/* Details end */
+.loding{
+  position: fixed;
+  top: 0%;
+  bottom: 0%;
+  left: 0%;
+  right: 0%;
+  background-color: black;
+  z-index: 1111111111111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+/* footer */
+footer{
+  width: 100%;
+  background-image: url(../img/textured-metal-background.jpg);
+}
+.bg-footer{
+  width: 100%;
+  height: 100%;
+  background-color: var(--main-bg-layer);
+}
+button ,textarea ,input{
+  margin: 10px 0px;
+}
+.icon p{
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  border: 1px solid;
+  margin: 10px;
+}
+.col-md-12{
+  padding: 0px;
+}
+/* footer end */
